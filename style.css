@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  min-height: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.heading{
+    font-size: 4rem;
+    margin-top: 1rem;
+    padding-left: 500px;
+    font-weight: bold;
+    padding: 20px 10px;
+    color:rgb(239, 243, 30);
+    /*text-shadow: 3px 3px 0 rgb(243, 22, 22);*/
+    text-shadow: 4px 0 rgb(233, 23, 23), 0 5px black, 5px 0 black, 0 5px black;
+}
+.countdown-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    justify-content:center;
+}
+.big-text{
+   
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight:initial;
+    color: rgb(27, 255, 6);
+    text-shadow: 3px 3px 0 rgb(74, 33, 223);
+    font-weight: bold;
+}
+.countdown-e1{
+    text-align: center;
+    margin-top: 2rem;
+}
+.countdown-e1 span{
+   font-size: 1.8rem; 
+   font-weight: bold;
+   color:rgb(239, 243, 30);
+   padding: 20px;
+   text-shadow: 2px 2px 0 rgb(243, 36, 198);
+   font-style:inherit;
+}
